@@ -42,6 +42,12 @@ function App() {
 
   return (   
     <>
+      {/* Deployment to github repository
+      <Navbar about="About" title='MyTextUtils' mode={mode} toggleMode={toggleMode} />
+      <Alert alert={alert} />
+      <div className='container my-3'>
+        <TextForm heading="Enter Text to analyze below" mode={mode} showAlert={showAlert} />
+      </div> */}
       <Router>
         <Navbar about="About" title='MyTextUtils' mode={mode} toggleMode={toggleMode} />
         {/* <Navbar /> */}
